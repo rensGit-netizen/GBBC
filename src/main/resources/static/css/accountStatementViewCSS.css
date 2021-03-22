@@ -1,0 +1,101 @@
+.displaytable {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 270px;
+    height: 250px;
+    border: 2px;
+}
+
+.headGrid{
+    width: 800px;
+    margin: auto;
+    height: 110px;
+    border: 3px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #f3d350;
+    background-color: #f3d350;
+}
+
+.displaytable .headText{
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+    top: 0;
+    text-align: left;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.displaytable .centerTextleft{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr;
+    width: auto;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+
+.displaytable .centerTextleft .imageSize{
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    width: 150px;
+}
+
+
+
+.textTable{
+    float: bottom;
+    overflow: auto;
+    background-color: #fff5e3;
+    height: 150%;
+    width: 800px;
+    border-collapse: collapse;
+    border: 2px solid #ffc300;
+    padding: 2px;
+
+}
+
+.textGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30px;
+    /*width: 99%;*/
+    grid-row-gap: 5px;
+}
+
+.textGrid .textAllignLeft{
+    text-align: left;
+    padding-left: 15px;
+}
+
+.textGrid .textAllignRight{
+    text-align: right;
+
+}
+
+.textTable::-webkit-scrollbar{
+    background-color: #e29b31;
+}
+
+.textTable::-webkit-scrollbar {
+    width: 10px;
+}
+
+.textTable::-webkit-scrollbar-track {
+    background: #ffffb2;
+}
+
+
+.textTable::-webkit-scrollbar-thumb {
+    background: #fcc332;
+}
+
+
+.textTable::-webkit-scrollbar-thumb:hover {
+    background: #f3cb52;
+}
